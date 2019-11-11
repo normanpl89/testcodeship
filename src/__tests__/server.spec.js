@@ -3,7 +3,7 @@ import app from '../server';
 
 const todo = {title: 'blah'};
 
-describe('Todo-Backend API', () => {
+describe('Todo-Backend API 1', () => {
   describe( 'the pre-requisites', () => {
     it( 'the api root responds to a GET (i.e. the server is up and accessible, CORS headers are set up)', (done) => {
       request(app)
