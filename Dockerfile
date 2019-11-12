@@ -8,3 +8,6 @@ COPY package.json .
 RUN npm install --quiet
 
 COPY . .
+
+RUN npm install -g protractor@^5.4 && \
+    webdriver-manager update
