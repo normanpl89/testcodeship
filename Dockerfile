@@ -1,4 +1,5 @@
-FROM node:7.7.2-alpine
+FROM node:7.7.2-debian:sid
+
 
 WORKDIR /usr/app
 
